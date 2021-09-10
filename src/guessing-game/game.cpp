@@ -4,10 +4,7 @@
 
 using namespace std;
 
-/*this program allows the user to enter a guess of a random numbers 5 times,
-if the entered number is equal to the randomly genereted number, the user wins
-else if the number is high, it prompts the user to guess lower
-else it prompts the user to guess higher, after the fifth attempt the user loses*/
+
 
 int main(){
 
