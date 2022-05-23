@@ -1,0 +1,55 @@
+.Container{
+
+    max-width: 450px;
+    margin: 2px auto 2px auto;
+    position: relative;
+    padding-top: 10em;
+}
+
+.displayContainer{
+
+    max-width: 225px;
+    margin: 2px auto 2px auto;
+    position: relative;
+    padding-top: 1em;
+}
+
+#display{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 1%;
+}
+
+#display > div{
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: white;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+}
+
+.button{
+    border-radius: 20%;
+    background-color: white;
+}
+
+.button{
+
+    border: 0.5px solid black;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: grey;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
